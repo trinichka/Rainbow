@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+.rainbow {
+	background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h1 {
+	font-weight: bold;
+	font-size: 22pt;
+}
+h2 {
+	font-weight: bold;
+	font-size: 16pt;
+}
+span.red {
+	color: red;
+}
+span.green {
+	color: green;
+}
+span.brown {
+	color: brown;
+}
+span.yellow {
+	color: burlywood;
+}
+span.blue {
+	color: lightskyblue;
+}
+span.navy {
+	color: blue;
+}
+span.orange {
+	color: orange;
+}
+span.grey {
+	color: grey;
+}
+span.midory {
+	color: steelblue;
+}
+span.violet {
+	color: slateblue;
+}
+.text {
+	color: olive;
+}
+.text ~ p {
+	color: rosybrown;
+}
